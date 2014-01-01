@@ -1,0 +1,13 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Boundary Adjust Tool</Name><AddInID>{386aaf2f-7b9b-4ea8-93e2-5c4401b53670}</AddInID><Description>New Addin</Description><Version>0.1</Version><Image /><Author>Untitled</Author><Company>Untitled</Company><Date>12/27/2013</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="BoundaryAdjustAddIn_addin.py" namespace="BoundaryAdjustAddIn_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Point Selector" category="Boundary Adjust Tool" class="PointSelector" id="BoundaryAdjustAddIn_addin.BoundaryAdjuster" image="" message="Selects start and end points." tip="Point Selector"><Help heading="" /></Tool>
+        <Button caption="Start Boundary Adjuster" category="Boundary Adjust Tool" class="StartBoundaryAdjuster" id="BoundaryAdjustAddIn_addin.StartBoundaryAdjustButton" image="" message="Click to begin the boundary adjuster tool." tip="Start Boundary Adjuster"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Boundary Adjuster" category="Boundary Adjust Tool" id="BoundaryAdjustAddIn_addin.BoundaryAdjustTools" showInitially="true"><Items><Tool refID="BoundaryAdjustAddIn_addin.BoundaryAdjuster" /><Button refID="BoundaryAdjustAddIn_addin.StartBoundaryAdjustButton" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
